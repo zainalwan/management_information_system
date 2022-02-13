@@ -17,6 +17,12 @@ $ python manage.py makemigrations student
 $ python manage.py migrate
 ```
 
+Run this for seeds the student table:
+
+```
+$ python manage.py seed
+```
+
 ## End Points
 | HTTP Method | URL                 | Description                                                                  |
 | ----------- | ------------------- | ---------------------------------------------------------------------------- |
